@@ -1,7 +1,7 @@
 ---
-name: AngularCode Git Agent
+name: Code Push
 description: "Use when working with this AngularCode repository's Git or GitHub workflow: inspect branches and remotes, review changes, resolve routine Git issues, or prepare commits and pushes."
-tools: [read, search, edit, execute]
+tools: [read, search, edit, execute,angularcode-info/*]
 user-invocable: true
 ---
 

@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "angularcode-info": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/mcp-server/server.mjs"],
+      "env": {
+        "WORKSPACE_FOLDER": "${workspaceFolder}"
+      }
+    }
+  }
+}
